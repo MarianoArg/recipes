@@ -1,6 +1,5 @@
 # README #
 
-Welcome to the first RogueLab project. We are gonna be building cool stuff.
 
 ### What is this repository for? ###
 
