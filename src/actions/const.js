@@ -1,0 +1,23 @@
+export const SEARCH = {
+        REQUEST: 'SEARCH_VIDEO',
+        SUCCESS: 'SEARCH_SUCCESS',
+        ERROR: 'SEARCH_ERROR'
+}
+
+export const FILTER = {
+        REQUEST: 'FILTER_VIDEO',
+        SUCCESS: 'FILTER_SUCCESS',
+        ERROR: 'FILTER_ERROR',
+        ADD: 'FILTER_ADD',
+        REMOVE: 'FILTER_REMOVE'
+}
+
+export const MEDIA = {
+    MAIN: 'LOAD_MAIN_PAGE',
+    ERROR: 'GET_MEDIA_ERROR',
+    SUCCESS: 'GET_MEDIA_SUCCESS',
+    PAGES: 'MEDIA_PAGES',
+    NEXT: 'NEXT_PAGE',
+    PREV: 'PREV_PAGE',
+    CURRENT: 'CURRENT_VIDEO'
+}

@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  background: #f5f5f5;
+  -webkit-font-smoothing: antialiased;
+}
+#rogue_recipes {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.rogue-wrapper {
+    width: 100%;
+}
+
+.rogue-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: #f2784b !important;
+    box-sizing: border-box;
+    z-index: 2;
+    height: 60px !important;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    padding-left: 280px !important;
+    justify-content: center !important;
+}
+
+.rogue-header .search-item input {
+    border: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: .005em;
+    width: 400px;
+    height: 45px;
+    float: left;
+    line-height: 40px;
+    padding: 0 15px;
+}
+
+.rogue-header .search-item .submit-button {
+    background: #222;
+    border: 0;
+    height: 45px;
+    width: 50px;
+    float: left;
+}
+
+.rogue-header .search-item .submit-button,
+.rogue-header .search-item input:focus {
+    outline: 0;
+}
+
+.rogue-main-menu a {
+    color:  #fff;
+    font-family: 'Roboto', Arial, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.rogue-main-page,
+.rogue-search-page {
+    background: #f5f5f5;
+    padding-top: 76px;
+    display: flex;
+    float: left;
+    width: calc(100% - 257px);
+    height: calc(100% - 56px);
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 257px;
+}
+
+.rogue-loading {
+    position: absolute !important;
+    top: 50%;
+    margin: auto;
+    transform: translateY(-50%);
+}
+
+.index {
+  width: 40%;
+  margin: 50px auto;
+  padding: 10px;
+  background: #333;
+  border: 1px solid #000;
+  border-radius: 2px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.video-card {
+    width: 280px;
+    float: left;
+    margin: 10px;
+    height: 320px;
+    background: #fff;
+    font-family: 'Roboto', Arial, sans-serif;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    border-radius: 2px;
+    transition: .3s ease-out;
+}
+
+.video-card:hover {
+    box-shadow: 0 7px 7px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 3px 1px -6px rgba(0,0,0,0.2);
+}
+
+.video-card a {
+    text-decoration: none;
+}
+
+.video-card .video-thumbnail {
+    width: 100%;
+    height: 210px;
+    background: #ccc;
+}
+
+.video-card .video-info {
+    padding: 5px 10px;
+    color: #333;
+}
+
+.video-card h2 {
+    text-align: left;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.video-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 2px 2px 0 0;
+}
+
+.video-card h4 {
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+.video-card p {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rogue-sidebar-header {
+    position: relative;
+     width: 100%;
+     top: 0;
+     text-align: center;
+     background: #f2784b;
+     height: 80px;
+     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.rogue-sidebar-header a {
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 80px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.filters {
+    margin: 0 auto;
+    display: block;
+    clear: both;
+    padding: 20px 10px;
+}
+
+/* Main */
+.rogue-recipe-container {
+    padding: 100px 0 50px 257px;
+    width: calc(100% - 257px)
+}
+.rogue-video {
+    width: 800px;
+    height: auto;
+    margin: auto;
+}
+
+.rogue-iframe-container {
+    width: 100%;
+    height: 450px;
+}
+
+.rogue-video h1,
+.rogue-video h3,
+.rogue-video p {
+    color: #333;
+    font-family: 'Roboto', Arial, sans-serif
+}
+
+.rogue-video h1 {
+    font-size: 20px;
+}
+
+.rogue-video h3 {
+    font-size: 16px;
+}
+
+.rogue-video p {
+    font-size: 14px;
+}
+
+/* Search Error */
+.rogue-search-error {
+    text-align: center;
+    margin-top: 30px;
+}
+.rogue-search-error h1 {
+    font-size: 24px;
+    color: rgba(0,0,0,.7);
+}
+.rogue-search-error .search-error-icon {
+    vertical-align: bottom;
+}
+.rogue-search-error h3 {
+    font-size: 18px;
+    color: rgba(0,0,0,.7);
+}
+
+
+/* Footer */
+
+.rogue-footer {
+    float: left;
+    font-family: 'Roboto', Arial, sans-serif;
+    margin-top: 50px;
+    padding: 30px 10px 30px 257px;
+    width: calc(100% - 257px);
+    background: rgba(0,0,0,.87);
+    text-align: center;
+}
+
+.rogue-footer h1 {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, .54);
+}
+
+.rogue-footer .rogue-love {
+    vertical-align: top;
+}
+
+.rogue-footer h1 span {
+    font-size: 18px;
+    color: rgba(255, 255, 255, .87);
+}
+
+.rogue-footer p {
+    font-size: 12px;
+    color: rgba(255, 255, 255, .54);
+}
