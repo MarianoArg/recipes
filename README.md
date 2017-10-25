@@ -1,24 +1,52 @@
-# README #
+# Recipes
 
+The idea behind this project, was to collect recipes from the most popular channels on youtube and put it into a single place.
 
-### What is this repository for? ###
+## Getting Started
 
-* Recipes App
-* V0.1
+Clone or download the repository, install the dependencies and setup your MongoDB.
 
+### Prerequisites
 
-### How do I get set up? ###
-
-* Clone the repo
 * You will need NPM >= v3 and Node >= 5
-* In the terminal, move to the repo folder and run 'npm install' to install the dependencies
+* MongoDB pre-installed.
 
-### Contribution guidelines ###
 
-* Writing tests
-* Code review
-* Other guidelines
+### Installing
+* Go to the repository folder and run *npm install* to install all the dependencies.
+* Configure your local server.
+* Run *npm start* to launch the dev server.
+* Run *npm posttest* to run the linter.
+* Be free to write new functions and improve the code.
 
-### Who do I talk to? ###
+## Running the tests
 
-* Repo owner or admin
+Tests needs to be built, as a next step
+
+## Deployment
+
+Not Yet
+
+## Built With
+
+* [Webpack](https://webpack.js.org/)
+* [Mongoose](http://mongoosejs.com/)
+* [MongoDB](https://www.mongodb.com/)
+* [Node.js](https://nodejs.org/)
+* [React](https://reactjs.org/)
+* [Redux](http://redux.js.org/)
+* [Material UI](http://www.material-ui.com/#/)
+
+## Contributing
+
+For any kind of contribution you can contact me, or just add a Pull Request.
+
+## Authors
+
+* **Mariano Argañaras** - *in the development*
+* Original Idea by **Ariel Porporatto** and **Julian Auad**
+
+## License
+
+This project is licensed under the MIT License
+
