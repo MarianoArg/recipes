@@ -1,6 +1,6 @@
 # Recipes
 
-The idea behind this project, was to collect recipes from the most popular channels on youtube and put it into a single place.
+The idea behind this project, was to collect recipes from the most popular channels on **YouTube** and put it into a single place.
 
 ## Getting Started
 
