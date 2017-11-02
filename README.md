@@ -42,7 +42,7 @@ Not Yet
 For any kind of contribution you can contact me, or just add a Pull Request.
 
 ## Authors
-
+* **Rogue 9** Formed By: **Mariano Argañaras** -  **Ariel Porporatto** - **Julian Auad**
 * **Mariano Argañaras** - *in the development*
 * Original Idea by **Ariel Porporatto** and **Julian Auad**
 
